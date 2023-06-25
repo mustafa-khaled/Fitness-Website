@@ -105,11 +105,11 @@ header,
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   display: none;
+  cursor: pointer;
 }
 .menu i {
   font-size: 18px;
   margin-top: 5px;
-  cursor: pointer;
 }
 
 .menu_overlay {
