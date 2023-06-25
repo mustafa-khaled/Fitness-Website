@@ -13,8 +13,23 @@
   --four: #6a6a6a;
   --five: #2c323a;
   --six: #f0f0f0;
+  --main-transition: 0.3s;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  height: 1000vh;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
