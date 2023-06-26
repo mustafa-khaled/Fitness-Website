@@ -1,0 +1,74 @@
+.first_section {
+  height: calc(100vh - 90px);
+  background-image: url(../../assets/home1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.first_section h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  --x-offset: -0.0625em;
+  --y-offset: 0.0625em;
+  --stroke: 0.025em;
+  --background-color: black;
+  --stroke-color: lightblue;
+
+  text-shadow: var(--x-offset) var(--y-offset) 0px var(--background-color),
+    calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke))
+      0px var(--stroke-color);
+}
+
+@supports (text-shadow: 1px 1px 1px 1px black) {
+  h1 {
+    text-shadow: var(--x-offset) var(--y-offset) 0px 0px var(--background-color),
+      var(--x-offset) var(--y-offset) var(--stroke) 0px var(--stroke-color);
+  }
+}
+
+.first_section button:first-of-type {
+  margin-right: 5px;
+  background-color: var(--one);
+  border: 1px solid var(--one);
+}
+
+.first_section button:last-of-type {
+  margin-left: 5px;
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+
+.first_section button:first-of-type:hover {
+  border-color: var(--white);
+  color: var(--white);
+}
+
+.first_section button:first-of-type::before {
+  background-color: var(--three);
+}
+
+.first_section button:last-of-type::before {
+  background-color: var(--one);
+}
+.first_section button:last-of-type:hover {
+  color: var(--three);
+  border-color: var(--three);
+}
+
+@media (max-width: 900px) {
+  .first_section {
+    height: calc(100vh - 70px);
+  }
+  .first_section h1 {
+    font-size: 40px;
+  }
+}
+
+/* Second Section */

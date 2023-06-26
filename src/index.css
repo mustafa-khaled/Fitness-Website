@@ -13,12 +13,12 @@
   --four: #6a6a6a;
   --five: #2c323a;
   --six: #f0f0f0;
+  --white: #fff;
   --main-transition: 0.3s;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  height: 1000vh;
 }
 
 .container {
@@ -32,4 +32,48 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.margin-sections {
+  margin-top: 90px;
+}
+
+@media (max-width: 900px) {
+  .margin-sections {
+    margin-top: 70px;
+  }
+}
+
+.sections-padding {
+  padding: 8rem 0;
+}
+
+/* Global Styles For All  Button*/
+button {
+  position: relative;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  z-index: 1;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+  z-index: -1;
+}
+
+button:hover::before {
+  width: 100%;
 }

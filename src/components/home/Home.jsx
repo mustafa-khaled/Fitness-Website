@@ -1,7 +1,13 @@
-import styles from "./home.module.css";
+import FirstSection from "./FirstSection";
+import SecondSection from "./SecondSection";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div className={` margin-sections `}>
+      <FirstSection />
+      <SecondSection />
+    </div>
+  );
 };
 
 export default Home;
