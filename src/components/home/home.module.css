@@ -139,3 +139,42 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
+
+/* Third  Section*/
+
+.third {
+  background-color: var(--three);
+  color: var(--white);
+  text-transform: uppercase;
+  text-align: right;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.third h2 {
+  white-space: nowrap;
+  word-spacing: 50px;
+  animation: marque 10s linear infinite;
+  -webkit-animation: marque 10s linear infinite;
+}
+
+.third span {
+  color: var(--one);
+}
+
+@keyframes marque {
+  0% {
+    transform: translate(100%, 0);
+    -webkit-transform: translate(100%, 0);
+    -moz-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    -o-transform: translate(100%, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+    -webkit-transform: translate(-100%, 0);
+    -moz-transform: translate(-100%, 0);
+    -ms-transform: translate(-100%, 0);
+    -o-transform: translate(-100%, 0);
+  }
+}
