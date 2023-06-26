@@ -26,6 +26,12 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 500px) {
+  .container {
+    width: 95%;
+  }
+}
+
 ul {
   list-style: none;
 }
