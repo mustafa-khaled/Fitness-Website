@@ -1,4 +1,5 @@
 import FirstSection from "./FirstSection";
+import FivethSection from "./FivethSection";
 import FourthSection from "./FourthSection";
 import SecondSection from "./SecondSection";
 import ThirdSection from "./ThirdSection";
@@ -10,6 +11,7 @@ const Home = () => {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <FivethSection />
     </div>
   );
 };

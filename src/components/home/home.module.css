@@ -280,3 +280,39 @@
     width: 100%;
   }
 }
+
+/* Section Five  */
+
+.five {
+  padding: 20px 0;
+  margin-bottom: 8rem;
+  border-top: 1px solid var(--seven);
+  border-bottom: 1px solid var(--seven);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.five_box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--six);
+  padding: 10px;
+}
+
+.five_box h4 {
+  padding: 5px;
+  background-color: var(--three);
+  color: var(--white);
+}
+
+.five_box:last-of-type > i {
+  background-color: var(--three);
+  padding: 8px;
+  color: var(--white);
+}
+
+.five_box:last-of-type > div i {
+  color: var(--yellow);
+}
