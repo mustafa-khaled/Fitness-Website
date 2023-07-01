@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #1d2229 #fff;
 }
 
 :root {
@@ -84,4 +86,33 @@ button::before {
 
 button:hover::before {
   width: 100%;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background-color: var(--white);
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: var(--white);
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: var(--white);
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: var(--three);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #1d2229;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: var(--three);
 }

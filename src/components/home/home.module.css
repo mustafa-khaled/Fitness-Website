@@ -316,3 +316,55 @@
 .five_box:last-of-type > div i {
   color: var(--yellow);
 }
+
+/* section Six  */
+.six {
+  background-color: #ccc;
+}
+
+.swipe_content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--three);
+  background-color: var(--six);
+  padding: 20px;
+}
+
+.six_image_holder {
+  position: relative;
+}
+
+.swipe_content .trainer {
+  width: 120px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.six_image_holder img:nth-child(2) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+}
+
+.swipe_content .six_text {
+  padding: 0 10px;
+  border-left: 1px solid var(--four);
+}
+
+.six_text p:first-of-type {
+  margin: 10px 0;
+}
+
+.starts i {
+  color: var(--yellow);
+}
+
+.six_text p:last-of-type {
+  margin-top: 10px;
+  color: var(--four);
+}
