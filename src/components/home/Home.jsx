@@ -6,6 +6,7 @@ import ThirdSection from "./ThirdSection";
 import Sixth from "./Sixth";
 import Seventh from "./Seventh";
 import Eighth from "./Eighth";
+import Nineth from "./Nineth";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Sixth />
       <Seventh />
       <Eighth />
+      <Nineth />
     </div>
   );
 };

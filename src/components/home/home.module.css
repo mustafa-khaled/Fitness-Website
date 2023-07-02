@@ -525,3 +525,93 @@
     width: 100%;
   }
 }
+
+/* Section nine */
+
+.nine {
+  text-align: center;
+  color: var(--three);
+}
+.nine > div:first-of-type {
+  margin-bottom: 40px;
+}
+
+.nine > div:first-of-type p {
+  color: var(--two);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.plans {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 30px;
+}
+
+.plans .plan {
+  padding: 20px;
+  background-color: var(--six);
+}
+
+.plan > div {
+  margin: 20px 0;
+  padding: 30px 0;
+  border-top: 1px solid var(--seven);
+  border-bottom: 1px solid var(--seven);
+}
+
+.plan h3 i {
+  margin-right: 10px;
+}
+
+.plan > div p {
+  padding: 8px;
+  width: fit-content;
+  margin: 10px auto 0;
+  font-size: 15px;
+}
+
+.plan:nth-child(2) > div p {
+  background-color: var(--one);
+}
+
+.plan ul li {
+  margin-bottom: 25px;
+}
+
+.plan ul li:first-of-type {
+  color: var(--two);
+  font-weight: 500;
+}
+
+.plan button {
+  background-color: var(--three);
+  color: var(--white);
+}
+
+.plan button:hover {
+  color: var(--three);
+}
+
+.plan button::before {
+  background-color: var(--one);
+}
+
+.plan:first-of-type h3 i {
+  color: #ed2e2e;
+}
+
+.plan:nth-child(2) h3 i {
+  color: var(--two);
+}
+.plan:last-of-type h3 i {
+  color: #ffe182;
+}
+
+@media (max-width: 360px) {
+  .plans {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+}
