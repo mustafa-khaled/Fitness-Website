@@ -5,6 +5,7 @@ import SecondSection from "./SecondSection";
 import ThirdSection from "./ThirdSection";
 import Sixth from "./Sixth";
 import Seventh from "./Seventh";
+import Eighth from "./Eighth";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <FivethSection />
       <Sixth />
       <Seventh />
+      <Eighth />
     </div>
   );
 };
