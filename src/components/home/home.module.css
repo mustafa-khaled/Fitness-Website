@@ -615,3 +615,76 @@
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   }
 }
+
+/* section ten */
+
+.ten {
+  color: var(--three);
+}
+
+.ten div {
+  padding: 10px;
+  width: 500px;
+  margin: 30px auto;
+  background-color: var(--six);
+}
+
+.ten div span:first-of-type {
+  margin-right: 20px;
+  color: var(--two);
+  font-weight: 500;
+}
+
+.ten div h3 {
+  margin: 20px 0;
+}
+
+.ten div p {
+  color: var(--four);
+  font-size: 15px;
+}
+
+.ten div button {
+  margin: 20px 0;
+  border: 1px solid var(--three);
+}
+
+.ten div button:hover {
+  color: var(--white);
+  border-color: var(--white);
+}
+
+.ten div button::before {
+  background-color: var(--three);
+}
+
+.ten div:last-of-type {
+  position: relative;
+  color: var(--white);
+  background-image: url(../../assets/man.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ten div:last-of-type p,
+.ten div:last-of-type h3,
+.ten div:last-of-type span {
+  position: relative;
+  color: var(--seven);
+}
+
+.ten div:last-of-type::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000099;
+}
+
+@media (max-width: 550px) {
+  .ten div {
+    width: 100%;
+  }
+}
