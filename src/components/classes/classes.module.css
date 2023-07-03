@@ -1,0 +1,58 @@
+.first {
+  height: 60vh;
+  background-image: url(../../assets/classes1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+}
+
+.first h1 {
+  font-size: 50px;
+}
+
+/* Second Section  */
+
+.second {
+  color: var(--three);
+}
+
+.second_text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.classes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 30px;
+}
+
+.classes img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.classes p {
+  width: 80%;
+  margin: 10px 0;
+  color: var(--four);
+}
+
+.classes a {
+  color: var(--two);
+}
+
+@media (max-width: 800px) {
+  .classes {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .classes {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
