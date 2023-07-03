@@ -8,7 +8,7 @@ const SecondSection = () => {
     <div className={`${styles.second_section} container sections-padding`}>
       <div className={styles.first}>
         <div>
-          <p>Our Fitness Training</p>
+          <p className="paragraph">Our Fitness Training</p>
           <h2>Upcoming Classes</h2>
         </div>
         <div>

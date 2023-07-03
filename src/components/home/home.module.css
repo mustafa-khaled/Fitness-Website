@@ -84,13 +84,6 @@
   margin-bottom: 30px;
 }
 
-.second_section .first p {
-  letter-spacing: 2px;
-  color: var(--two);
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
 .second_section .first button {
   background-color: var(--three);
   color: var(--white);
@@ -191,14 +184,6 @@
 
 .fourth .text {
   width: 50%;
-}
-
-.fourth .text > p:first-of-type {
-  letter-spacing: 2px;
-  color: var(--two);
-  text-transform: uppercase;
-  font-size: 14px;
-  margin-bottom: 10px;
 }
 
 .fourth .text > h2 {
@@ -376,13 +361,6 @@
   text-align: center;
   margin-bottom: 30px;
 }
-.seven_head p {
-  letter-spacing: 2px;
-  color: var(--two);
-  text-transform: uppercase;
-  font-size: 14px;
-  margin-bottom: 10px;
-}
 
 .boxes {
   display: flex;
@@ -534,14 +512,6 @@
 }
 .nine > div:first-of-type {
   margin-bottom: 40px;
-}
-
-.nine > div:first-of-type p {
-  color: var(--two);
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-size: 14px;
-  margin-bottom: 10px;
 }
 
 .plans {

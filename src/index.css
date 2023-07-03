@@ -87,6 +87,17 @@ button::before {
 button:hover::before {
   width: 100%;
 }
+
+/* Global P  */
+.paragraph {
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  color: var(--two);
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* Scrollbar */
 *::-webkit-scrollbar {
   width: 8px;
   width: 8px;

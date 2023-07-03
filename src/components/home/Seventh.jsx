@@ -8,7 +8,7 @@ const Seventh = () => {
   return (
     <div className={`${styles.seven} container sections-padding`}>
       <div className={styles.seven_head}>
-        <p>Our Trainers</p>
+        <p className="paragraph">Our Trainers</p>
         <h2>We Trained You to Gain</h2>
       </div>
 

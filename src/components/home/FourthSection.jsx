@@ -8,7 +8,7 @@ const FourthSection = () => {
   return (
     <div className={`${styles.fourth} container sections-padding`}>
       <div className={styles.text}>
-        <p>About</p>
+        <p className="paragraph">About</p>
         <h2>
           Respect Your Body,
           <br />

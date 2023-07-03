@@ -4,7 +4,7 @@ const Nineth = () => {
   return (
     <div className={`${styles.nine} container sections-padding`}>
       <div>
-        <p>Our Plans</p>
+        <p className="paragraph">Our Plans</p>
         <h2>Choose the Program</h2>
       </div>
       <div className={styles.plans}>
