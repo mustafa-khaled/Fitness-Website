@@ -1,0 +1,72 @@
+.trainers {
+  color: var(--three);
+}
+
+.trainers_head {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.boxes .box {
+  width: calc(90% / 3);
+}
+
+.boxes .box img {
+  width: 100%;
+}
+
+.boxes .box > div {
+  background-color: var(--three);
+  padding: 20px;
+  color: var(--white);
+}
+
+.boxes .box > div div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--four);
+  margin-bottom: 10px;
+}
+
+.boxes .box > div > p {
+  color: var(--four);
+  margin: 10px 0;
+}
+.boxes .box > div > div p i {
+  color: var(--yellow);
+  font-size: 15px;
+}
+
+.boxes .box > div i {
+  color: var(--white);
+  font-size: 20px;
+}
+
+.boxes .box > div i:hover {
+  color: var(--four);
+}
+
+@media (max-width: 800px) {
+  .boxes {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .boxes .box {
+    width: calc(90% / 2);
+  }
+}
+
+@media (max-width: 500px) {
+  .boxes .box {
+    width: 100%;
+  }
+}

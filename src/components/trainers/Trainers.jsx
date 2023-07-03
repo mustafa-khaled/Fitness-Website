@@ -1,4 +1,4 @@
-import styles from "./home.module.css";
+import styles from "./trainers.module.css";
 
 import photo1 from "../../assets/tr2.png";
 import photo2 from "../../assets/tr1.png";
@@ -6,8 +6,8 @@ import photo3 from "../../assets/tr3.png";
 
 const Seventh = () => {
   return (
-    <div className={`${styles.seven} container sections-padding`}>
-      <div className={styles.seven_head}>
+    <div className={`${styles.trainers} container sections-padding`}>
+      <div className={styles.trainers_head}>
         <p className="paragraph">Our Trainers</p>
         <h2>We Trained You to Gain</h2>
       </div>
