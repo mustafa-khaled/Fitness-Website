@@ -52,7 +52,44 @@
 }
 
 @media (max-width: 600px) {
+  .first h1 {
+    font-size: 30px;
+  }
+
   .classes {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
+}
+
+/* Section Three  */
+
+.third {
+  height: 60vh;
+  background-image: url(../../assets/classes7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 8rem;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.third p {
+  width: 80%;
+  margin: 20px auto;
+  color: var(--four);
+}
+
+.third button {
+  background-color: var(--one);
+}
+
+.third button:hover {
+  color: var(--white);
+}
+
+.third button::before {
+  background-color: var(--three);
 }
