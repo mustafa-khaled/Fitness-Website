@@ -2,6 +2,7 @@ import styles from "./home.module.css";
 import photo1 from "../../assets/home4.png";
 import photo2 from "../../assets/home3.png";
 import photo3 from "../../assets/home2.png";
+import { Link } from "react-router-dom";
 
 const SecondSection = () => {
   return (
@@ -20,7 +21,7 @@ const SecondSection = () => {
           <img src={photo1} alt="women in gym" />
           <h3>Pilates Training</h3>
           <p>containing Lorem Ipsum passagesand more recently with </p>
-          <a href="#">Read More</a>
+          <Link to={"/yogaClass"}>Read More</Link>
         </div>
 
         <div>

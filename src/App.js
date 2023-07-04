@@ -5,6 +5,7 @@ import Home from "./components/home/Home.jsx";
 import Footer from "./components/footer/Footer";
 import About from "./components/about/About";
 import Classes from "./components/classes/Classes";
+import YogaClass from "./components/yogaClass/YogaClass";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="classes" element={<Classes />} />
+        <Route path="yogaClass" element={<YogaClass />} />
       </Routes>
       <Footer />
     </div>

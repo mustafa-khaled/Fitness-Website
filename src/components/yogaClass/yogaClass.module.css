@@ -1,0 +1,116 @@
+.first {
+  height: 60vh;
+  background-image: url(../../assets/yogaClass1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first h1 {
+  text-align: center;
+  font-size: 50px;
+  --x-offset: -0.0625em;
+  --y-offset: 0.0625em;
+  --stroke: 0.025em;
+  --background-color: black;
+  --stroke-color: lightblue;
+  text-shadow: var(--x-offset) var(--y-offset) 0px var(--background-color),
+    calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke))
+      0px var(--stroke-color);
+  color: var(--white);
+}
+
+@media (max-width: 600px) {
+  .first h1 {
+    font-size: 30px;
+  }
+}
+
+/* Second Section  */
+
+.second {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  color: var(--three);
+}
+
+.second > div img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.second > div:first-of-type span {
+  font-size: 14px;
+}
+
+.second > div:first-of-type span:first-of-type {
+  color: var(--two);
+  margin-right: 15px;
+}
+
+.second > div:first-of-type h2 {
+  margin: 10px 0;
+}
+
+.second > div:first-of-type p:first-of-type,
+.second > div:first-of-type > p:last-of-type {
+  margin: 20px 0;
+  color: var(--four);
+}
+
+.second > div:first-of-type ul:first-of-type,
+.second > div:first-of-type ul:last-of-type {
+  list-style: disc !important;
+  color: var(--four);
+  margin: 0 0 20px 15px;
+}
+
+.second > div:first-of-type ul:first-of-type li,
+.second > div:first-of-type ul:last-of-type li {
+  margin-bottom: 10px;
+}
+
+.second > div:nth-child(2) {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: var(--six);
+}
+
+.second > div:nth-child(2) > p:first-of-type {
+  margin: 20px 0;
+  width: 80%;
+  color: var(--four);
+}
+
+.info {
+  margin-bottom: 20px;
+  color: var(--four);
+}
+
+.info span {
+  margin-left: 10px;
+  font-weight: 500;
+  color: var(--three);
+}
+
+.second > div:nth-child(2) button {
+  margin-top: 20px;
+  background-color: var(--three);
+  color: var(--white);
+}
+
+.second > div:nth-child(2) button:hover {
+  color: var(--three);
+}
+.second > div:nth-child(2) button::before {
+  background-color: var(--one);
+}
+
+@media (max-width: 1000px) {
+  .second {
+    flex-direction: column;
+  }
+}
