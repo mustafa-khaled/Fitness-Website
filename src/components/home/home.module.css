@@ -13,23 +13,6 @@
 
 .first_section h1 {
   margin-bottom: 30px;
-  font-size: 50px;
-  --x-offset: -0.0625em;
-  --y-offset: 0.0625em;
-  --stroke: 0.025em;
-  --background-color: black;
-  --stroke-color: lightblue;
-
-  text-shadow: var(--x-offset) var(--y-offset) 0px var(--background-color),
-    calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke))
-      0px var(--stroke-color);
-}
-
-@supports (text-shadow: 1px 1px 1px 1px black) {
-  h1 {
-    text-shadow: var(--x-offset) var(--y-offset) 0px 0px var(--background-color),
-      var(--x-offset) var(--y-offset) var(--stroke) 0px var(--stroke-color);
-  }
 }
 
 .first_section button:first-of-type {

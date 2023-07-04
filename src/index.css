@@ -58,6 +58,28 @@ a {
   padding: 8rem 0;
 }
 
+.main-heading {
+  color: var(--white);
+  font-size: 50px;
+  --x-offset: -0.0625em;
+  --y-offset: 0.0625em;
+  --stroke: 0.025em;
+  --background-color: black;
+  --stroke-color: lightblue;
+  text-shadow: var(--x-offset) var(--y-offset) 0px var(--background-color),
+    calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke))
+      0px var(--stroke-color);
+}
+
+.main-background {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* Global Styles For All  Button*/
 button {
   position: relative;

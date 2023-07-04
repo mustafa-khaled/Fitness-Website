@@ -3,7 +3,7 @@ import styles from "./home.module.css";
 const FirstSection = () => {
   return (
     <div className={styles.first_section}>
-      <h1>
+      <h1 className="main-heading">
         Keep Your Body
         <br />
         Fit & Strong

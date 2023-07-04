@@ -1,25 +1,9 @@
 .first {
-  height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-image: url(../../assets/about1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .first h1 {
   text-align: center;
-  font-size: 50px;
-  --x-offset: -0.0625em;
-  --y-offset: 0.0625em;
-  --stroke: 0.025em;
-  --background-color: black;
-  --stroke-color: lightblue;
-  text-shadow: var(--x-offset) var(--y-offset) 0px var(--background-color),
-    calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke))
-      0px var(--stroke-color);
-  color: var(--white);
 }
 
 @media (max-width: 600px) {
