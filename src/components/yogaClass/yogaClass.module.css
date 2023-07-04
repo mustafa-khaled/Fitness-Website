@@ -114,3 +114,13 @@
     flex-direction: column;
   }
 }
+
+/* Section Three */
+
+.third {
+  margin-bottom: 8rem;
+}
+
+.third img {
+  width: 100%;
+}
