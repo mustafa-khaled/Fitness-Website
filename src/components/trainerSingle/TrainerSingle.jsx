@@ -1,3 +1,4 @@
+import FitnessTraining from "../fitnessTraining/FitnessTraining";
 import First from "./First";
 import Second from "./Second";
 import Third from "./Third";
@@ -8,6 +9,7 @@ const TrainerSingle = () => {
       <First />
       <Second />
       <Third />
+      <FitnessTraining />
     </div>
   );
 };

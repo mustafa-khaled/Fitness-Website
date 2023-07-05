@@ -15,14 +15,18 @@
   margin-bottom: 30px;
 }
 
+.first_section div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .first_section button:first-of-type {
-  margin-right: 5px;
   background-color: var(--one);
   border: 1px solid var(--one);
 }
 
 .first_section button:last-of-type {
-  margin-left: 5px;
   background-color: transparent;
   color: var(--white);
   border: 1px solid var(--white);
@@ -51,68 +55,6 @@
   }
   .first_section h1 {
     font-size: 40px;
-  }
-}
-
-/* Second Section */
-
-.second_section {
-  color: var(--three);
-}
-
-.second_section .first {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 30px;
-}
-
-.second_section .first button {
-  background-color: var(--three);
-  color: var(--white);
-}
-
-.second_section .first button::before {
-  background-color: var(--one);
-}
-
-.second_section .first button:hover {
-  color: var(--three);
-}
-
-.second_section .second {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 30px;
-}
-
-.second_section .second img {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.second_section .second p {
-  color: var(--four);
-  width: 80%;
-  margin: 10px 0;
-}
-
-.second_section .second a {
-  color: var(--two);
-  font-size: 14px;
-}
-
-@media (max-width: 400px) {
-  .second_section .first {
-    flex-direction: column;
-  }
-
-  .second_section .first h2 {
-    margin: 20px 0;
-  }
-
-  .second_section .second {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
 
@@ -465,6 +407,7 @@
 }
 
 .plan button {
+  margin: 0 auto;
   background-color: var(--three);
   color: var(--white);
 }
