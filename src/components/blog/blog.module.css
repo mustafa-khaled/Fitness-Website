@@ -1,3 +1,73 @@
 .first {
   background-image: url(../../assets/blog1.png);
 }
+
+.second {
+  color: var(--three);
+}
+
+.boxes {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 30px;
+}
+
+.boxes > div {
+  position: relative;
+  padding: 20px;
+  border: 1px solid var(--seven);
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.boxes > div:hover {
+  top: -15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.boxes > div > img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.boxes > div div span {
+  font-size: 14px;
+}
+
+.boxes > div div span:first-of-type {
+  color: var(--two);
+}
+
+.boxes > div div span:nth-child(2) {
+  margin: 0 20px;
+}
+
+.boxes > div h3 {
+  margin: 15px 0;
+}
+
+.boxes > div div:last-of-type {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.boxes > div div:last-of-type img {
+  width: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+@media (max-width: 800px) {
+  .boxes {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
