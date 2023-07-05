@@ -7,6 +7,7 @@ import About from "./components/about/About";
 import Classes from "./components/classes/Classes";
 import YogaClass from "./components/yogaClass/YogaClass";
 import TrainersPage from "./components/trainersPage/TrainersPage";
+import TrainerSingle from "./components/trainerSingle/TrainerSingle";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="classes" element={<Classes />} />
         <Route path="yogaClass" element={<YogaClass />} />
         <Route path="trainers" element={<TrainersPage />} />
+        <Route path="singleClass" element={<TrainerSingle />} />
       </Routes>
       <Footer />
     </div>

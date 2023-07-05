@@ -26,7 +26,7 @@ const Second = () => {
           <img src={photo2} alt="" />
           <h3>CrossFit</h3>
           <p>containing Lorem Ipsum passagesand more recently with </p>
-          <a href="#">Read More</a>
+          <Link to={"/singleClass"}>Read More</Link>
         </div>
         <div>
           <img src={photo3} alt="" />

@@ -1,0 +1,65 @@
+.first {
+  background-image: url(../../assets/single1.jpg);
+}
+
+/* Second Section  */
+.second {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  color: var(--three);
+}
+
+.second img {
+  width: 100%;
+}
+
+.second p,
+ul li {
+  color: var(--four);
+}
+
+.second p,
+h2 {
+  margin: 20px 0;
+}
+
+.second ul {
+  list-style: disc;
+  margin-left: 15px;
+}
+
+.second ul li {
+  margin-bottom: 10px;
+}
+
+.second > div:first-of-type h2 {
+  margin: 10px 0;
+}
+
+.second > div:first-of-type .info span {
+  color: var(--three);
+  font-weight: 500;
+}
+
+.second > div:first-of-type i {
+  color: var(--three);
+  font-size: 20px;
+}
+
+.second > div:first-of-type i:hover {
+  opacity: 0.7;
+}
+
+.second div:nth-child(2) {
+  width: 70%;
+}
+
+@media (max-width: 750px) {
+  .second {
+    flex-direction: column;
+  }
+  .second div:nth-child(2) {
+    width: 100%;
+  }
+}

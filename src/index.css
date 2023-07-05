@@ -44,6 +44,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  line-height: 1.5;
+}
+
 .margin-sections {
   margin-top: 90px;
 }
@@ -72,6 +76,8 @@ a {
 }
 
 .main-background {
+  text-align: center;
+
   height: 60vh;
   display: flex;
   align-items: center;
