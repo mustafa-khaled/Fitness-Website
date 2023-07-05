@@ -20,7 +20,7 @@ ul li {
 }
 
 .second p,
-h2 {
+.second h2 {
   margin: 20px 0;
 }
 
@@ -60,6 +60,85 @@ h2 {
     flex-direction: column;
   }
   .second div:nth-child(2) {
+    width: 100%;
+  }
+}
+
+/* third Section  */
+
+.third {
+  background-image: url(../../assets/single2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.third_content {
+  color: var(--white);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.third_content > div {
+  width: 50%;
+}
+
+.third_content p {
+  margin: 20px 0;
+  color: var(--four);
+  width: 80%;
+}
+
+.third_content > div form input,
+.third_content textarea {
+  padding: 10px;
+  border: 1px solid var(--white);
+  background: transparent;
+  outline: none;
+  width: 100%;
+}
+
+.third_content textarea {
+  height: 100px;
+  resize: none;
+}
+
+.third_content > div form div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.third_content > div form input::placeholder,
+.third_content textarea::placeholder {
+  color: var(--white);
+}
+
+.third_content > div form > input,
+button {
+  display: block;
+  margin: 20px 0;
+}
+
+.third_content > div form button {
+  background-color: var(--one);
+}
+
+.third_content > div form button:hover {
+  color: var(--white);
+}
+
+.third_content > div form button::before {
+  background-color: var(--three);
+}
+
+@media (max-width: 600px) {
+  .third_content {
+    flex-direction: column;
+  }
+
+  .third_content > div {
     width: 100%;
   }
 }
