@@ -84,3 +84,72 @@
     width: 100%;
   }
 }
+
+/* SEction Three  */
+
+.third {
+  position: relative;
+  background-image: url(../../assets/contact2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  min-height: 50vh;
+}
+
+.third::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--two);
+  opacity: 0.5;
+}
+
+.third_content {
+  position: relative;
+  background-color: var(--one);
+  color: var(--three);
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: center;
+}
+
+.third_content > div {
+  width: calc(100% / 3);
+  padding: 0 20px;
+}
+
+.third_content > div i {
+  font-size: 20px;
+}
+
+.third_content > div h4 {
+  margin: 10px 0;
+}
+
+.third_content > div p {
+  margin: 10px 0;
+  font-size: 13px;
+}
+
+.third_content > div:not(.third_content > div:first-of-type) {
+  border-left: 1px solid var(--three);
+}
+
+@media (max-width: 700px) {
+  .third_content {
+    flex-direction: column;
+  }
+
+  .third_content > div {
+    width: 100%;
+  }
+
+  .third_content > div:not(.third_content > div:first-of-type) {
+    border: none;
+  }
+}
