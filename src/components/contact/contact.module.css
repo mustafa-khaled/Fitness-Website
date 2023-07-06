@@ -1,0 +1,85 @@
+.first {
+  background-image: url(../../assets/contact1.png);
+}
+
+@media (max-width: 600px) {
+  .first h1 {
+    font-size: 30px;
+  }
+}
+
+/* second Section  */
+
+.second {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+  color: var(--three);
+}
+
+.second > div {
+  width: 50%;
+}
+
+.second div:first-of-type p:not(.second div:first-of-type p:first-of-type) {
+  color: var(--four);
+  margin: 20px 0;
+}
+
+.second div:first-of-type p span {
+  color: var(--three);
+  font-weight: 500;
+}
+
+.second div:last-of-type {
+  background-color: var(--six);
+  padding: 30px;
+}
+
+.second div:last-of-type p {
+  color: var(--two);
+  margin-top: 10px;
+}
+
+.second div:last-of-type form input,
+.second div:last-of-type form textarea {
+  display: block;
+  border: 1px solid var(--seven);
+  outline: none;
+  padding: 10px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.second div:last-of-type form input::placeholder,
+.second div:last-of-type form textarea::placeholder {
+  color: var(--seven);
+}
+
+.second div:last-of-type form textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+.second div:last-of-type button {
+  background-color: var(--three);
+  color: var(--white);
+}
+.second div:last-of-type button:hover {
+  color: var(--three);
+}
+
+.second div:last-of-type button::before {
+  background-color: var(--one);
+}
+@media (max-width: 700px) {
+  .second {
+    flex-direction: column;
+  }
+
+  .second > div {
+    width: 100%;
+  }
+}

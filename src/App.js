@@ -19,6 +19,8 @@ const BlogSingle = React.lazy(() =>
   import("./components/blogSingle/BlogSingle")
 );
 
+const Contact = React.lazy(() => import("./components/contact/Contact"));
+
 const App = () => {
   return (
     <div>
@@ -33,6 +35,7 @@ const App = () => {
           <Route path="singleClass" element={<TrainerSingle />} />
           <Route path="blog" element={<Blog />} />
           <Route path="blogSingle" element={<BlogSingle />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </Suspense>
       <Footer />
