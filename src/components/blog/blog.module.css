@@ -24,6 +24,10 @@
   -o-transition: var(--main-transition);
 }
 
+.boxes > div:nth-child(2) {
+  cursor: pointer;
+}
+
 .boxes > div:hover {
   top: -15px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,

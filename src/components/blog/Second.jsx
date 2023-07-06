@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router";
 import styles from "./blog.module.css";
 
 import photo1 from "../../assets/blog2.png";
@@ -16,6 +17,7 @@ import photo55 from "../../assets/blog12.png";
 import photo66 from "../../assets/blog13.png";
 
 const Second = () => {
+  const navigate = useNavigate();
   return (
     <div className={`${styles.second} container sections-padding`}>
       <div>
@@ -36,7 +38,7 @@ const Second = () => {
             <h6>Jacob Cornish</h6>
           </div>
         </div>
-        <div>
+        <div onClick={() => navigate("/blogSingle")}>
           <img src={photo2} alt="" />
           <div>
             <span>March 22, 2022</span>

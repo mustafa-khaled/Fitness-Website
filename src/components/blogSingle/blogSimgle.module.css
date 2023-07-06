@@ -1,0 +1,48 @@
+.first {
+  padding: 5rem 0;
+  color: var(--three);
+}
+
+.first > div {
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first > img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.small_image {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.small_image img {
+  width: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.small_image p {
+  color: var(--four);
+}
+
+/* second Section  */
+
+.second {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media (max-width: 650px) {
+  .second {
+    width: 90%;
+  }
+}
