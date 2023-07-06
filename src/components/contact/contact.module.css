@@ -74,6 +74,7 @@
 .second div:last-of-type button::before {
   background-color: var(--one);
 }
+
 @media (max-width: 700px) {
   .second {
     flex-direction: column;

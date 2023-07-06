@@ -3,8 +3,8 @@ import { Route, Routes } from "react-router";
 
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import Home from "./components/home/Home";
 
-const Home = React.lazy(() => import("./components/home/Home.jsx"));
 const About = React.lazy(() => import("./components/about/About"));
 const Classes = React.lazy(() => import("./components/classes/Classes"));
 const YogaClass = React.lazy(() => import("./components/yogaClass/YogaClass"));
@@ -18,7 +18,6 @@ const Blog = React.lazy(() => import("./components/blog/Blog"));
 const BlogSingle = React.lazy(() =>
   import("./components/blogSingle/BlogSingle")
 );
-
 const Contact = React.lazy(() => import("./components/contact/Contact"));
 
 const App = () => {
