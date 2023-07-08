@@ -1,0 +1,36 @@
+.first {
+  background-image: url(../../assets/yogaClass1.jpg);
+}
+
+@media (max-width: 600px) {
+  .first h1 {
+    font-size: 30px;
+  }
+}
+
+.second {
+  text-align: center;
+  color: var(--three);
+}
+
+.second img {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.second p {
+  margin: 20px 0;
+  color: var(--four);
+}
+
+.second button {
+  background-color: var(--one);
+}
+
+.second button:hover {
+  color: var(--white);
+}
+
+.second button::before {
+  background-color: var(--three);
+}

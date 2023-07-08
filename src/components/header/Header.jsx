@@ -1,9 +1,11 @@
 import styles from "./header.module.css";
 import logo from "../../assets/Icon.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 const Header = () => {
+  const navigate = useNavigate();
+
   const [active, setActive] = useState(false);
 
   const menuHandler = () => {
@@ -13,7 +15,7 @@ const Header = () => {
   return (
     <header>
       <div className={`${styles.header_content} container`}>
-        <div className={styles.logo_holder}>
+        <div className={styles.logo_holder} onClick={() => navigate("/")}>
           <div className={styles.image_holder}>
             <img src={logo} alt="Logo" />
           </div>

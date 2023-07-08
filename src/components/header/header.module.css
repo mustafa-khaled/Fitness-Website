@@ -23,6 +23,7 @@ header,
 }
 
 .logo_holder {
+  cursor: pointer;
   justify-content: center;
   font-weight: 800;
   gap: 10px;

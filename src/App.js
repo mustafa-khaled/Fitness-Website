@@ -23,6 +23,7 @@ const Schedule = React.lazy(() => import("./components/schedule/Schedule"));
 const Calculator = React.lazy(() =>
   import("./components/calculator/Calculator")
 );
+const ErrorPage = React.lazy(() => import("./components/errorPage/ErrorPage"));
 
 const App = () => {
   return (
@@ -41,6 +42,8 @@ const App = () => {
           <Route path="contact" element={<Contact />} />
           <Route path="schedule" element={<Schedule />} />
           <Route path="calculator" element={<Calculator />} />
+          <Route path="errorPage" element={<ErrorPage />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Suspense>
       <Footer />

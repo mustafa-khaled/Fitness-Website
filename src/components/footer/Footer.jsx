@@ -40,7 +40,7 @@ const Footer = () => {
             <li>Utility Pages</li>
             <li onClick={() => navigate("/calculator")}>BMI Calculator</li>
             <li onClick={() => navigate("/schedule")}>Schedule</li>
-            <li>404 Page</li>
+            <li onClick={() => navigate("/errorPage")}>404 Page</li>
             <li>Password Protected</li>
             <li>Licenses</li>
             <li onClick={() => navigate("/contact")}>Contact</li>
