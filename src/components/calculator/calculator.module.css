@@ -1,0 +1,9 @@
+.first {
+  background-image: url(../../assets/single1.jpg);
+}
+
+@media (max-width: 600px) {
+  .first h1 {
+    font-size: 30px;
+  }
+}

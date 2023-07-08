@@ -38,7 +38,7 @@ const Footer = () => {
         <div>
           <ul>
             <li>Utility Pages</li>
-            <li>Style Guide</li>
+            <li onClick={() => navigate("/calculator")}>BMI Calculator</li>
             <li onClick={() => navigate("/schedule")}>Schedule</li>
             <li>404 Page</li>
             <li>Password Protected</li>

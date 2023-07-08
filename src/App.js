@@ -20,6 +20,9 @@ const BlogSingle = React.lazy(() =>
 );
 const Contact = React.lazy(() => import("./components/contact/Contact"));
 const Schedule = React.lazy(() => import("./components/schedule/Schedule"));
+const Calculator = React.lazy(() =>
+  import("./components/calculator/Calculator")
+);
 
 const App = () => {
   return (
@@ -37,6 +40,7 @@ const App = () => {
           <Route path="blogSingle" element={<BlogSingle />} />
           <Route path="contact" element={<Contact />} />
           <Route path="schedule" element={<Schedule />} />
+          <Route path="calculator" element={<Calculator />} />
         </Routes>
       </Suspense>
       <Footer />

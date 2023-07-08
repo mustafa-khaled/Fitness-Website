@@ -68,6 +68,7 @@
 
 .footer_content > div:nth-child(2) ul li:first-of-type {
   color: var(--white);
+  cursor: none;
 }
 
 .footer_content > div:nth-child(2) ul li:hover {
