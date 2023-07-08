@@ -7,3 +7,163 @@
     font-size: 30px;
   }
 }
+
+/* Second Section  */
+.second {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+  color: var(--three);
+}
+
+.second > div {
+  width: 50%;
+}
+
+.second > div:first-of-type h2 {
+  margin: 10px 0;
+}
+
+.second > div:first-of-type p:last-of-type {
+  color: var(--four);
+  margin-bottom: 10px;
+}
+.second > div form input {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 1px solid var(--seven);
+  outline: none;
+  width: 100%;
+}
+
+.second > div form div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.second > div form button {
+  margin-top: 10px;
+  background-color: var(--three);
+  color: var(--white);
+}
+
+.second > div form button:hover {
+  color: var(--three);
+}
+
+.second > div form button::before {
+  background-color: var(--one);
+}
+
+.error {
+  margin-top: 10px;
+  color: var(--two) !important;
+  font-weight: 400;
+}
+
+.results {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.results > div {
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+}
+
+.results > div div {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--three);
+}
+
+.underweight {
+  color: #f8c800;
+}
+
+.obese {
+  color: #ff4b4b;
+}
+
+.overweight {
+  color: #ffa24b;
+}
+
+.healthy {
+  color: #a1f65e;
+}
+
+@media (max-width: 700px) {
+  .second {
+    flex-direction: column;
+  }
+
+  .second > div {
+    width: 100%;
+  }
+}
+
+/* section Three */
+
+.third {
+  padding: 50px 0;
+  background-color: var(--two);
+  margin-bottom: 8rem;
+  color: var(--white);
+}
+
+.third > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.third .input_holder {
+  border: 1px solid var(--white);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.third .input_holder input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 10px;
+  display: block;
+  width: 70%;
+}
+
+.third .input_holder input::placeholder {
+  color: var(--white);
+}
+
+.third .input_holder button {
+  background-color: var(--three);
+  color: var(--white);
+}
+.third .input_holder button:hover {
+  color: var(--three);
+}
+
+.third .input_holder button::before {
+  background-color: var(--one);
+}
+
+@media (max-width: 700px) {
+  .third > div {
+    flex-direction: column;
+  }
+}
