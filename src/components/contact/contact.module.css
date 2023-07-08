@@ -153,3 +153,53 @@
     border: none;
   }
 }
+
+.four {
+  width: 60%;
+  margin: 0 auto;
+  color: var(--three);
+}
+
+.four > div div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--four);
+  padding: 15px 5px;
+}
+
+.four > div div i {
+  cursor: pointer;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.four > div div i.activeIcon {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.four > div p {
+  color: var(--four);
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  padding: 5px 0;
+  display: none;
+}
+
+.four > div p.active {
+  display: block;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+@media (max-width: 500px) {
+  .four {
+    width: 80%;
+  }
+}
