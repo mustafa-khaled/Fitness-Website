@@ -5,25 +5,36 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
 
-const About = React.lazy(() => import("./components/about/About"));
-const Classes = React.lazy(() => import("./components/classes/Classes"));
-const YogaClass = React.lazy(() => import("./components/yogaClass/YogaClass"));
-const TrainersPage = React.lazy(() =>
-  import("./components/trainersPage/TrainersPage")
-);
-const TrainerSingle = React.lazy(() =>
-  import("./components/trainerSingle/TrainerSingle")
-);
-const Blog = React.lazy(() => import("./components/blog/Blog"));
-const BlogSingle = React.lazy(() =>
-  import("./components/blogSingle/BlogSingle")
-);
-const Contact = React.lazy(() => import("./components/contact/Contact"));
-const Schedule = React.lazy(() => import("./components/schedule/Schedule"));
-const Calculator = React.lazy(() =>
-  import("./components/calculator/Calculator")
-);
-const ErrorPage = React.lazy(() => import("./components/errorPage/ErrorPage"));
+// const About = React.lazy(() => import("./components/about/About"));
+// const Classes = React.lazy(() => import("./components/classes/Classes"));
+// const YogaClass = React.lazy(() => import("./components/yogaClass/YogaClass"));
+// const TrainersPage = React.lazy(() =>
+//   import("./components/trainersPage/TrainersPage")
+// );
+// const TrainerSingle = React.lazy(() =>
+//   import("./components/trainerSingle/TrainerSingle")
+// );
+// const Blog = React.lazy(() => import("./components/blog/Blog"));
+// const BlogSingle = React.lazy(() =>
+//   import("./components/blogSingle/BlogSingle")
+// );
+// const Contact = React.lazy(() => import("./components/contact/Contact"));
+// const Schedule = React.lazy(() => import("./components/schedule/Schedule"));
+// const Calculator = React.lazy(() =>
+//   import("./components/calculator/Calculator")
+// );
+// const ErrorPage = React.lazy(() => import("./components/errorPage/ErrorPage"));
+import About from "./components/about/About";
+import Classes from "./components/classes/Classes";
+import YogaClass from "./components/yogaClass/YogaClass";
+import TrainersPage from "./components/trainersPage/TrainersPage";
+import TrainerSingle from "./components/trainerSingle/TrainerSingle";
+import Blog from "./components/blog/Blog";
+import BlogSingle from "./components/blogSingle/BlogSingle";
+import Contact from "./components/contact/Contact";
+import Schedule from "./components/schedule/Schedule";
+import Calculator from "./components/calculator/Calculator";
+import ErrorPage from "./components/errorPage/ErrorPage";
 
 const App = () => {
   return (

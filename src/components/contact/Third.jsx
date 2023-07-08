@@ -2,7 +2,7 @@ import styles from "./contact.module.css";
 
 const Third = () => {
   return (
-    <div className={`${styles.third}  sections-padding`}>
+    <div className={`${styles.third}  sections-padding`} data-aos="zoom-in">
       <div className={`${styles.third_content} container`}>
         <div>
           <i className="fa-solid fa-phone"></i>

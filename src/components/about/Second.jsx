@@ -4,7 +4,7 @@ import photo2 from "../../assets/about3.jpg";
 
 const Second = () => {
   return (
-    <div className={styles.second}>
+    <div className={styles.second} data-aos="fade-right">
       <div>
         <img src={photo1} alt="" />
       </div>

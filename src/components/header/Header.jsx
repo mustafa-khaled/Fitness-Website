@@ -41,7 +41,7 @@ const Header = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <button>Book Class</button>
+            <button onClick={() => navigate("/classes")}>Book Class</button>
           </li>
         </ul>
         <div className={styles.menu} onClick={() => menuHandler()}>

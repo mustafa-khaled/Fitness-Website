@@ -3,11 +3,18 @@ import styles from "./home.module.css";
 import photo1 from "../../assets/home5.png";
 import photo2 from "../../assets/home6.png";
 import photo3 from "../../assets/home7.jpg";
+import { useNavigate } from "react-router";
 
 const FourthSection = () => {
+  const navigate = useNavigate();
+
   return (
     <div className={`${styles.fourth} container sections-padding`}>
-      <div className={styles.text}>
+      <div
+        className={styles.text}
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
         <p className="paragraph">About</p>
         <h2>
           Respect Your Body,
@@ -36,9 +43,12 @@ const FourthSection = () => {
           </div>
         </div>
       </div>
-      <div className={styles.fourth_image_container}>
+      <div
+        className={styles.fourth_image_container}
+        data-aos="fade-up"
+        data-aos-duration="3000">
         <img src={photo3} alt="Man Exercise" />
-        <button>Get Started</button>
+        <button onClick={() => navigate("/schedule")}>Get Started</button>
       </div>
     </div>
   );

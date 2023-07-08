@@ -13,7 +13,10 @@ const Seventh = () => {
       </div>
 
       <div className={styles.boxes}>
-        <div className={styles.box}>
+        <div
+          className={styles.box}
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center">
           <img src={photo1} alt="" />
           <div>
             <div>
@@ -31,7 +34,10 @@ const Seventh = () => {
             </a>
           </div>
         </div>
-        <div className={styles.box}>
+        <div
+          className={styles.box}
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center">
           <img src={photo2} alt="" />
           <div>
             <div>
@@ -50,7 +56,10 @@ const Seventh = () => {
           </div>
         </div>
 
-        <div className={styles.box}>
+        <div
+          className={styles.box}
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center">
           <img src={photo3} alt="" />
           <div>
             <div>

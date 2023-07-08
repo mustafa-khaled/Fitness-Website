@@ -13,8 +13,8 @@ const Four = () => {
   return (
     <div className={`${styles.four} `}>
       <div className={"container "}>
-        <img src={photo} alt="" />
-        <div>
+        <img src={photo} alt="" data-aos="fade-up" />
+        <div className={styles.buttons}>
           <button onClick={() => navHandler()}>Book A class </button>
           <button onClick={() => navHandler()}>More Classes</button>
         </div>

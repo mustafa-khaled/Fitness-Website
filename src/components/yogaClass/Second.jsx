@@ -4,7 +4,10 @@ import photo1 from "../../assets/yoga2.png";
 const Second = () => {
   return (
     <div className={`${styles.second}  container sections-padding`}>
-      <div>
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
         <img src={photo1} alt="" />
         <span>March 22, 2022</span>
         <span>Fat Loss</span>
@@ -45,7 +48,7 @@ const Second = () => {
           </li>
         </ul>
       </div>
-      <div>
+      <div data-aos="fade-up" data-aos-duration="3000">
         <h3>Class Details</h3>
         <p>Objectively innovate empowered manufactured products</p>
 

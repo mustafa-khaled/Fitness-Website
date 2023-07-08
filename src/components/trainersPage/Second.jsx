@@ -15,7 +15,7 @@ const Second = () => {
         <h2>We Trained You to Gain</h2>
       </div>
       <div className={styles.trainers_boxes}>
-        <div>
+        <div data-aos="fade-right">
           <img src={photo1} alt="trainer" />
           <div className={styles.info}>
             <div>
@@ -33,7 +33,7 @@ const Second = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-right">
           <img src={photo2} alt="trainer" />
           <div className={styles.info}>
             <div>
@@ -51,7 +51,7 @@ const Second = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-right">
           <img src={photo3} alt="trainer" />
           <div className={styles.info}>
             <div>
@@ -69,7 +69,7 @@ const Second = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-right">
           <img src={photo4} alt="trainer" />
           <div className={styles.info}>
             <div>
@@ -87,7 +87,7 @@ const Second = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-right">
           <img src={photo5} alt="trainer" />
           <div className={styles.info}>
             <div>
@@ -105,7 +105,7 @@ const Second = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-right">
           <img src={photo6} alt="trainer" />
           <div className={styles.info}>
             <div>

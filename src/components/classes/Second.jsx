@@ -16,37 +16,37 @@ const Second = () => {
         <h2>We Trained You to Gain</h2>
       </div>
       <div className={styles.classes}>
-        <div>
+        <div data-aos="fade-right">
           <img src={photo1} alt="" />
           <h3>Pilates Training</h3>
           <p>containing Lorem Ipsum passagesand more recently with </p>
           <Link to={"/yogaClass"}>Read More</Link>
         </div>
-        <div>
+        <div data-aos="fade-right">
           <img src={photo2} alt="" />
           <h3>CrossFit</h3>
           <p>containing Lorem Ipsum passagesand more recently with </p>
           <Link to={"/singleClass"}>Read More</Link>
         </div>
-        <div>
+        <div data-aos="fade-right">
           <img src={photo3} alt="" />
           <h3>Aerobic</h3>
           <p>containing Lorem Ipsum passagesand more recently with </p>
           <a href="#">Read More</a>
         </div>
-        <div>
+        <div data-aos="fade-right">
           <img src={photo4} alt="" />
           <h3>Yoga As Therapy</h3>
           <p>containing Lorem Ipsum passagesand more recently with </p>
           <a href="#">Read More</a>
         </div>
-        <div>
+        <div data-aos="fade-right">
           <img src={photo5} alt="" />
           <h3>Boxing</h3>
           <p>containing Lorem Ipsum passagesand more recently with </p>
           <a href="#">Read More</a>
         </div>
-        <div>
+        <div data-aos="fade-right">
           <img src={photo6} alt="" />
           <h3>Energy Dance</h3>
           <p>containing Lorem Ipsum passagesand more recently with </p>

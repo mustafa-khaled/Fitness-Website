@@ -15,7 +15,10 @@ import "swiper/css/scrollbar";
 
 const Sixth = () => {
   return (
-    <div className={`${styles.six} sections-padding`}>
+    <div
+      className={`${styles.six} sections-padding`}
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom">
       <div className={`${styles.six_content} container `}>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}

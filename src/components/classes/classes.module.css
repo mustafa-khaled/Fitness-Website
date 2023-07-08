@@ -74,6 +74,7 @@
 
 .third button {
   background-color: var(--one);
+  margin: 0 auto;
 }
 
 .third button:hover {

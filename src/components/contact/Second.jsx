@@ -26,7 +26,7 @@ const Second = () => {
 
   return (
     <div className={`${styles.second}  container sections-padding`}>
-      <div>
+      <div data-aos="fade-down">
         <p className="paragraph">Welcome To strengthy</p>
         <h2>Get In Touch With Us</h2>
         <p>
@@ -44,7 +44,7 @@ const Second = () => {
           <span>sunday :</span> 09.00 AM To 02.00 PM
         </p>
       </div>
-      <div>
+      <div data-aos="fade-up">
         <h2>Send Us a Message</h2>
         <p>Your email address will not be published *</p>
         <form>

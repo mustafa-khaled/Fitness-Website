@@ -3,7 +3,9 @@ import photo2 from "../../assets/about5.png";
 
 const Third = () => {
   return (
-    <div className={`${styles.third} container sections-padding`}>
+    <div
+      className={`${styles.third} container sections-padding`}
+      data-aos="fade-right">
       <div className={styles.third_one}>
         <div className={styles.one_content}>
           <p className="paragraph">Welcome</p>

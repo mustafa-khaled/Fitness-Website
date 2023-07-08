@@ -101,8 +101,14 @@
   top: -200px;
 }
 
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
 .four button:first-of-type {
-  margin-right: 5px;
   background-color: var(--one);
   border: 1px solid var(--one);
 }
@@ -118,7 +124,6 @@
 
 .four button:last-of-type {
   background-color: var(--three);
-  margin-left: 5px;
   border: 1px solid var(--white);
   color: var(--white);
 }

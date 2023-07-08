@@ -4,7 +4,7 @@ import photo from "../../assets/tr1.png";
 const Second = () => {
   return (
     <div className={`${styles.second} container sections-padding`}>
-      <div>
+      <div data-aos="fade-up">
         <img src={photo} alt="" />
         <h2>Madison Froning</h2>
         <p>Grossfit Trainer</p>
@@ -23,7 +23,7 @@ const Second = () => {
           <i className="fa-brands fa-linkedin"></i>
         </a>
       </div>
-      <div>
+      <div data-aos="fade-up">
         <h1>Personal Details</h1>
         <p>
           Far far away, behinds the words mountains, far from the countries

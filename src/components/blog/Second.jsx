@@ -25,7 +25,7 @@ const Second = () => {
         <h2>Articles & News</h2>
       </div>
       <div className={styles.boxes}>
-        <div>
+        <div data-aos="flip-up">
           <img src={photo1} alt="" />
           <div>
             <span>March 22, 2022</span>
@@ -38,7 +38,7 @@ const Second = () => {
             <h6>Jacob Cornish</h6>
           </div>
         </div>
-        <div onClick={() => navigate("/blogSingle")}>
+        <div onClick={() => navigate("/blogSingle")} data-aos="flip-up">
           <img src={photo2} alt="" />
           <div>
             <span>March 22, 2022</span>
@@ -51,7 +51,7 @@ const Second = () => {
             <h6>Benjamin Gray</h6>
           </div>
         </div>
-        <div>
+        <div data-aos="flip-up">
           <img src={photo3} alt="" />
           <div>
             <span>March 22, 2022</span>
@@ -64,7 +64,7 @@ const Second = () => {
             <h6>David Ferguson</h6>
           </div>
         </div>
-        <div>
+        <div data-aos="flip-up">
           <img src={photo4} alt="" />
           <div>
             <span>March 22, 2022</span>
@@ -77,7 +77,7 @@ const Second = () => {
             <h6>William Wilkins</h6>
           </div>
         </div>
-        <div>
+        <div data-aos="flip-up">
           <img src={photo5} alt="" />
           <div>
             <span>March 22, 2022</span>
@@ -90,7 +90,7 @@ const Second = () => {
             <h6>Floyid Miles</h6>
           </div>
         </div>
-        <div>
+        <div data-aos="flip-up">
           <img src={photo6} alt="" />
           <div>
             <span>March 22, 2022</span>

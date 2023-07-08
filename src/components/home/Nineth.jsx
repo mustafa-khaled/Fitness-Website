@@ -8,7 +8,7 @@ const Nineth = () => {
         <h2>Choose the Program</h2>
       </div>
       <div className={styles.plans}>
-        <div className={styles.plan}>
+        <div className={styles.plan} data-aos="flip-up">
           <h3>
             <i className="fa-solid fa-heart"></i>
             Basic
@@ -26,7 +26,7 @@ const Nineth = () => {
           </ul>
           <button>Get Started</button>
         </div>
-        <div className={styles.plan}>
+        <div className={styles.plan} data-aos="flip-up">
           <h3>
             <i className="fa-solid fa-star"></i>
             Standard
@@ -47,7 +47,7 @@ const Nineth = () => {
           </ul>
           <button>Get Started</button>
         </div>
-        <div className={styles.plan}>
+        <div className={styles.plan} data-aos="flip-up">
           <h3>
             <i className="fa-solid fa-gem"></i>
             Premium

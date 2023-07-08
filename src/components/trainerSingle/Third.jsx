@@ -2,7 +2,7 @@ import styles from "./trainer.module.css";
 
 const Third = () => {
   return (
-    <div className={`${styles.third} sections-padding`}>
+    <div className={`${styles.third} sections-padding`} data-aos="flip-down">
       <div className={`${styles.third_content} container`}>
         <div>
           <h2>
