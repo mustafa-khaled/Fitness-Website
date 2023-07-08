@@ -62,10 +62,15 @@
 }
 
 .footer_content > div:nth-child(2) ul li {
+  cursor: pointer;
   margin-bottom: 20px;
 }
 
 .footer_content > div:nth-child(2) ul li:first-of-type {
+  color: var(--white);
+}
+
+.footer_content > div:nth-child(2) ul li:hover {
   color: var(--white);
 }
 

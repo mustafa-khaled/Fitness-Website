@@ -1,7 +1,10 @@
 import styles from "./footer.module.css";
 import logoIcon from "../../assets/Icon.png";
+import { useNavigate } from "react-router";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
   return (
     <div className={styles.footer}>
       <div className={styles.footer_image}>
@@ -36,11 +39,11 @@ const Footer = () => {
           <ul>
             <li>Utility Pages</li>
             <li>Style Guide</li>
-            <li>Changelog</li>
+            <li onClick={() => navigate("/schedule")}>Schedule</li>
             <li>404 Page</li>
             <li>Password Protected</li>
             <li>Licenses</li>
-            <li>Contact</li>
+            <li onClick={() => navigate("/contact")}>Contact</li>
           </ul>
         </div>
         <div>

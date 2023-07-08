@@ -1,0 +1,52 @@
+.first {
+  background-image: url(../../assets/Schedule.png);
+}
+
+@media (max-width: 600px) {
+  .first h1 {
+    font-size: 30px;
+  }
+}
+
+/* second Section  */
+.second {
+  color: var(--three);
+  text-align: center;
+}
+
+.second .schedule {
+  margin-top: 30px;
+  background-color: var(--three);
+  color: var(--white);
+}
+
+.second .schedule .days {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.second .colums {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.second .colums div {
+  background-color: var(--five);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.second .colums div h4 {
+  color: var(--one);
+}
+
+.second .colums div p:first-of-type {
+  margin: 10px 0;
+}
