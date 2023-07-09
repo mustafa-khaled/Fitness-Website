@@ -33,7 +33,7 @@ const App = () => {
       <ScrollToTop />
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
-          <Route path="Fitness-Website" element={<Home />} />
+          <Route path="/Fitness-Website" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="classes" element={<Classes />} />
           <Route path="yogaClass" element={<YogaClass />} />
