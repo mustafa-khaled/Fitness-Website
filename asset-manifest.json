@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Fitness-Website/static/css/main.93928c7f.css",
-    "main.js": "/Fitness-Website/static/js/main.bc2623af.js",
+    "main.js": "/Fitness-Website/static/js/main.8ce61e20.js",
     "static/css/836.4e6a233b.chunk.css": "/Fitness-Website/static/css/836.4e6a233b.chunk.css",
     "static/js/836.1a5e1a6d.chunk.js": "/Fitness-Website/static/js/836.1a5e1a6d.chunk.js",
     "static/css/243.dbca25fa.chunk.css": "/Fitness-Website/static/css/243.dbca25fa.chunk.css",
@@ -23,7 +23,7 @@
     "static/css/468.f321beb3.chunk.css": "/Fitness-Website/static/css/468.f321beb3.chunk.css",
     "static/js/468.5f2662d3.chunk.js": "/Fitness-Website/static/js/468.5f2662d3.chunk.js",
     "static/css/151.a31838df.chunk.css": "/Fitness-Website/static/css/151.a31838df.chunk.css",
-    "static/js/151.81f07bd5.chunk.js": "/Fitness-Website/static/js/151.81f07bd5.chunk.js",
+    "static/js/151.b066bb55.chunk.js": "/Fitness-Website/static/js/151.b066bb55.chunk.js",
     "static/media/yoda3.png": "/Fitness-Website/static/media/yoda3.8e4c3430d9c2fdef5a92.png",
     "static/media/bg.png": "/Fitness-Website/static/media/bg.f54a981e5f5a0abe0046.png",
     "static/media/single2.png": "/Fitness-Website/static/media/single2.aece8740d49cd4fcc382.png",
@@ -81,7 +81,7 @@
     "static/media/fa-v4compatibility.woff2": "/Fitness-Website/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/Fitness-Website/index.html",
     "main.93928c7f.css.map": "/Fitness-Website/static/css/main.93928c7f.css.map",
-    "main.bc2623af.js.map": "/Fitness-Website/static/js/main.bc2623af.js.map",
+    "main.8ce61e20.js.map": "/Fitness-Website/static/js/main.8ce61e20.js.map",
     "836.4e6a233b.chunk.css.map": "/Fitness-Website/static/css/836.4e6a233b.chunk.css.map",
     "836.1a5e1a6d.chunk.js.map": "/Fitness-Website/static/js/836.1a5e1a6d.chunk.js.map",
     "243.dbca25fa.chunk.css.map": "/Fitness-Website/static/css/243.dbca25fa.chunk.css.map",
@@ -103,10 +103,10 @@
     "468.f321beb3.chunk.css.map": "/Fitness-Website/static/css/468.f321beb3.chunk.css.map",
     "468.5f2662d3.chunk.js.map": "/Fitness-Website/static/js/468.5f2662d3.chunk.js.map",
     "151.a31838df.chunk.css.map": "/Fitness-Website/static/css/151.a31838df.chunk.css.map",
-    "151.81f07bd5.chunk.js.map": "/Fitness-Website/static/js/151.81f07bd5.chunk.js.map"
+    "151.b066bb55.chunk.js.map": "/Fitness-Website/static/js/151.b066bb55.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93928c7f.css",
-    "static/js/main.bc2623af.js"
+    "static/js/main.8ce61e20.js"
   ]
 }
