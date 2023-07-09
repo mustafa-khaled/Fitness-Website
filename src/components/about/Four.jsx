@@ -5,7 +5,7 @@ const Four = () => {
   const navigate = useNavigate();
 
   return (
-    <div className={styles.four} data-aos="fade-right">
+    <div className={styles.four}>
       <div className={styles.four_image}></div>
       <div className={`${styles.four_content} sections-padding`}>
         <div className={`${styles.values} container`}>
