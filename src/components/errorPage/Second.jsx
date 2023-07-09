@@ -10,7 +10,7 @@ const Second = () => {
       <img src={photo} alt="404" />
       <h2>Page Not Found!</h2>
       <p>Sorry, we can’t find the page you’re looking for.</p>
-      <button onClick={() => navigate("/")}>Back To Home</button>
+      <button onClick={() => navigate("/Fitness-Website")}>Back To Home</button>
     </div>
   );
 };
