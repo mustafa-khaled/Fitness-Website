@@ -1,8 +1,8 @@
 import styles from "./trainers.module.css";
 
-const Third = () => {
+const Routines = () => {
   return (
-    <div className={`${styles.third} container `}>
+    <div className={`${styles.routines} container `}>
       <p className="paragraph">Welcome</p>
       <h2>Take a look at my routines</h2>
       <p>
@@ -13,4 +13,4 @@ const Third = () => {
   );
 };
 
-export default Third;
+export default Routines;

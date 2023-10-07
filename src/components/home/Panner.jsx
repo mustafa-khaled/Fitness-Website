@@ -1,8 +1,8 @@
 import styles from "./home.module.css";
 
-const ThirdSection = () => {
+const Panner = () => {
   return (
-    <div className={styles.third}>
+    <div className={styles.panner}>
       <h2>
         Focus On Your <span>Fitness</span> Not Your Loss
       </h2>
@@ -10,4 +10,4 @@ const ThirdSection = () => {
   );
 };
 
-export default ThirdSection;
+export default Panner;

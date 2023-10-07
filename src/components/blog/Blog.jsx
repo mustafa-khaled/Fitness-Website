@@ -1,11 +1,11 @@
-import First from "./First";
-import Second from "./Second";
+import HeroSection from "./HeroSection";
+import BlogArticlesNews from "./BlogArticlesNews";
 
 const Blog = () => {
   return (
     <div>
-      <First />
-      <Second />
+      <HeroSection />
+      <BlogArticlesNews />
     </div>
   );
 };

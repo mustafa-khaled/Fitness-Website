@@ -1,16 +1,16 @@
-.first {
+.hero-section {
   padding: 5rem 0;
   color: var(--three);
 }
 
-.first > div {
+.hero-section > div {
   padding: 20px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.first > img {
+.hero-section > img {
   width: 100%;
   margin: 0 auto;
 }
@@ -36,25 +36,25 @@
 
 /* second Section  */
 
-.second {
+.article {
   width: 60%;
   margin: 0 auto;
   color: var(--three);
   margin-bottom: 8rem;
 }
 
-.second > p,
-.second ul {
+.article > p,
+.article ul {
   margin: 20px 0;
   color: var(--four);
 }
 
-.second ul {
+.article ul {
   list-style: disc;
   margin-left: 15px;
 }
 
-.second ul li {
+.article ul li {
   margin-bottom: 10px;
 }
 
@@ -69,19 +69,19 @@
 }
 
 @media (max-width: 650px) {
-  .second {
+  .article {
     width: 90%;
   }
 }
 
-.third {
+.trainer-info {
   background-color: var(--six);
   text-align: center;
   margin-bottom: 8rem;
   color: var(--three);
 }
 
-.third img {
+.trainer-info img {
   width: 60px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -91,27 +91,27 @@
   margin-bottom: 10px;
 }
 
-.third p:first-of-type,
-.third p:last-of-type {
+.trainer-info p:first-of-type,
+.trainer-info p:last-of-type {
   margin: 10px auto;
   color: var(--four);
 }
 
-.third p:last-of-type {
+.trainer-info p:last-of-type {
   width: 50%;
 }
 
-.third i {
+.trainer-info i {
   font-size: 30px;
   color: var(--three);
 }
 
-.third i:hover {
+.trainer-info i:hover {
   color: var(--four);
 }
 
 @media (max-width: 500px) {
-  .third p:last-of-type {
+  .trainer-info p:last-of-type {
     width: 90%;
   }
 }

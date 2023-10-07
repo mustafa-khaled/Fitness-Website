@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./contact.module.css";
 
-const Second = () => {
+const ContactForm = () => {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -25,7 +25,7 @@ const Second = () => {
   };
 
   return (
-    <div className={`${styles.second}  container sections-padding`}>
+    <div className={`${styles["contact-form"]}  container sections-padding`}>
       <div data-aos="fade-down">
         <p className="paragraph">Welcome To strengthy</p>
         <h2>Get In Touch With Us</h2>
@@ -81,4 +81,4 @@ const Second = () => {
   );
 };
 
-export default Second;
+export default ContactForm;

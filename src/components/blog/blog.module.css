@@ -1,8 +1,8 @@
-.first {
+.hero-section {
   background-image: url(../../assets/blog1.png);
 }
 
-.second {
+.articles-news {
   color: var(--three);
 }
 

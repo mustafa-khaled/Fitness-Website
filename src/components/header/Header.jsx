@@ -1,7 +1,9 @@
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { headerLinksData } from "../../data/data";
+
 import styles from "./header.module.css";
 import logo from "../../assets/Icon.png";
-import { Link, useNavigate } from "react-router-dom";
-import { useState } from "react";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -22,24 +24,14 @@ const Header = () => {
           Strengthy
         </div>
         <ul className={active ? `${styles.activeList}` : ""}>
-          <li>
-            <Link to="/Fitness-Website">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/classes">Classes</Link>
-          </li>
-          <li>
-            <Link to="/trainers">Trainers</Link>
-          </li>
-          <li>
-            <Link to="/blog">Blog</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
+          {headerLinksData.map((link) => {
+            return (
+              <li key={link.id}>
+                <Link to={link.to}>{link.title}</Link>
+              </li>
+            );
+          })}
+
           <li>
             <button onClick={() => navigate("/classes")}>Book Class</button>
           </li>

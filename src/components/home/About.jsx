@@ -9,7 +9,7 @@ const FourthSection = () => {
   const navigate = useNavigate();
 
   return (
-    <div className={`${styles.fourth} container sections-padding`}>
+    <div className={`${styles.about} container sections-padding`}>
       <div
         className={styles.text}
         data-aos="fade-down"
@@ -44,7 +44,7 @@ const FourthSection = () => {
         </div>
       </div>
       <div
-        className={styles.fourth_image_container}
+        className={styles["img-container"]}
         data-aos="fade-up"
         data-aos-duration="3000">
         <img src={photo3} alt="Man Exercise" />

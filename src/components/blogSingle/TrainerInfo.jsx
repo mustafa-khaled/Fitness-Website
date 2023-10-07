@@ -1,9 +1,9 @@
-import styles from "./blogSimgle.module.css";
+import styles from "./blogSingle.module.css";
 import photo from "../../assets/blog9.png";
 
-const Third = () => {
+const TrainerInfo = () => {
   return (
-    <div className={`${styles.third} sections-padding`}>
+    <div className={`${styles["trainer-info"]} sections-padding`}>
       <img src={photo} alt="" />
       <h4>Benjamin Gray</h4>
       <p>Professional Trainer</p>
@@ -18,4 +18,4 @@ const Third = () => {
   );
 };
 
-export default Third;
+export default TrainerInfo;

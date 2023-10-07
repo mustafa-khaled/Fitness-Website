@@ -1,15 +1,15 @@
-.first {
+.hero-section {
   background-image: url(../../assets/classes1.png);
   color: var(--white);
 }
 
 /* Second Section  */
 
-.second {
+.all-trainers {
   color: var(--three);
 }
 
-.second_text {
+.trainers-text {
   text-align: center;
   margin-bottom: 30px;
 }
@@ -42,7 +42,7 @@
 }
 
 @media (max-width: 600px) {
-  .first h1 {
+  .hero-section h1 {
     font-size: 30px;
   }
 
@@ -53,7 +53,7 @@
 
 /* Section Three  */
 
-.third {
+.join-our-club {
   height: 60vh;
   background-image: url(../../assets/classes7.png);
   background-size: cover;
@@ -66,21 +66,21 @@
   text-align: center;
 }
 
-.third p {
+.join-our-club p {
   width: 80%;
   margin: 20px auto;
   color: var(--four);
 }
 
-.third button {
+.join-our-club button {
   background-color: var(--one);
   margin: 0 auto;
 }
 
-.third button:hover {
+.join-our-club button:hover {
   color: var(--white);
 }
 
-.third button::before {
+.join-our-club button::before {
   background-color: var(--three);
 }

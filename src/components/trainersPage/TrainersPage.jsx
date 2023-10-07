@@ -1,15 +1,15 @@
-import First from "./First";
-import Four from "./Four";
-import Second from "./Second";
-import Third from "./Third";
+import HeroSection from "./HeroSection";
+import CtaSection from "./CtaSection";
+import OurTrainers from "./OurTrainers";
+import Routines from "./Routines";
 
 const TrainersPage = () => {
   return (
     <div>
-      <First />
-      <Second />
-      <Third />
-      <Four />
+      <HeroSection />
+      <OurTrainers />
+      <Routines />
+      <CtaSection />
     </div>
   );
 };

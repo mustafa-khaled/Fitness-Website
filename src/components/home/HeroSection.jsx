@@ -1,11 +1,11 @@
 import { useNavigate } from "react-router";
 import styles from "./home.module.css";
 
-const FirstSection = () => {
+const HeroSection = () => {
   const navigate = useNavigate();
 
   return (
-    <div className={styles.first_section} data-aos="zoom-out-down">
+    <div className={styles["hero-section"]} data-aos="zoom-out-down">
       <h1 className="main-heading">
         Keep Your Body
         <br />
@@ -19,4 +19,4 @@ const FirstSection = () => {
   );
 };
 
-export default FirstSection;
+export default HeroSection;

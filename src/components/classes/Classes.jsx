@@ -1,13 +1,13 @@
-import First from "./First";
-import Second from "./Second";
-import Third from "./Third";
+import HeroSection from "./HeroSection";
+import AllOurTrainers from "./AllOurTrainers";
+import JoinOurClub from "./JoinOurClub";
 
 const Classes = () => {
   return (
     <div>
-      <First />
-      <Second />
-      <Third />
+      <HeroSection />
+      <AllOurTrainers />
+      <JoinOurClub />
     </div>
   );
 };

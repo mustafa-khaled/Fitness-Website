@@ -1,59 +1,59 @@
-.second_section {
+.fitness-training {
   color: var(--three);
 }
 
-.second_section .first {
+.section-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
 }
 
-.second_section .first button {
+.section-head button {
   background-color: var(--three);
   color: var(--white);
 }
 
-.second_section .first button::before {
+.section-head button::before {
   background-color: var(--one);
 }
 
-.second_section .first button:hover {
+.section-head button:hover {
   color: var(--three);
 }
 
-.second_section .second {
+.boxes-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 30px;
 }
 
-.second_section .second img {
+.boxes-container img {
   width: 100%;
   margin-bottom: 10px;
 }
 
-.second_section .second p {
+.boxes-container p {
   color: var(--four);
   width: 80%;
   margin: 10px 0;
 }
 
-.second_section .second a {
+.boxes-container a {
   color: var(--two);
   font-size: 14px;
 }
 
 @media (max-width: 400px) {
-  .second_section .first {
+  .section-head {
     flex-direction: column;
   }
 
-  .second_section .first h2 {
+  .section-head h2 {
     margin: 20px 0;
   }
 
-  .second_section .second {
+  .boxes-container {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }

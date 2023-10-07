@@ -1,18 +1,16 @@
 import styles from "./home.module.css";
 
-const FivethSection = () => {
+const Benefits = () => {
   return (
-    <div className={`${styles.five} container`}>
+    <div className={`${styles.benefits} container`}>
       <div
-        className={styles.five_box}
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine">
         <h4>01</h4>
-        <p>Fitnes Taining</p>
+        <p>Fitness Training</p>
       </div>
       <div
-        className={styles.five_box}
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine">
@@ -20,7 +18,6 @@ const FivethSection = () => {
         <p>Regular Routine</p>
       </div>
       <div
-        className={styles.five_box}
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine">
@@ -29,7 +26,6 @@ const FivethSection = () => {
       </div>
 
       <div
-        className={styles.five_box}
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine">
@@ -49,4 +45,4 @@ const FivethSection = () => {
   );
 };
 
-export default FivethSection;
+export default Benefits;

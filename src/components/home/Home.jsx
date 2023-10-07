@@ -1,27 +1,27 @@
-import FirstSection from "./FirstSection";
-import FivethSection from "./FivethSection";
-import FourthSection from "./FourthSection";
-import ThirdSection from "./ThirdSection";
-import Sixth from "./Sixth";
+import HeroSection from "./HeroSection";
+import FitnessTraining from "../fitnessTraining/FitnessTraining";
+import Panner from "./Panner";
+import Benefits from "./Benefits";
+import About from "./About";
+import Swiper from "./Swiper";
 import Trainers from "../trainers/Trainers";
-import Eighth from "./Eighth";
-import Nineth from "./Nineth";
-import Tenth from "./Tenth";
-import FitnessTrainig from "../fitnessTraining/FitnessTraining";
+import GymAmenities from "./GymAmenities";
+import OurPlans from "./OurPlans";
+import ArticlesNews from "./ArticlesNews";
 
 const Home = () => {
   return (
     <div className={` margin-sections `}>
-      <FirstSection />
-      <FitnessTrainig />
-      <ThirdSection />
-      <FourthSection />
-      <FivethSection />
-      <Sixth />
+      <HeroSection />
+      <FitnessTraining />
+      <Panner />
+      <About />
+      <Benefits />
+      <Swiper />
       <Trainers />
-      <Eighth />
-      <Nineth />
-      <Tenth />
+      <GymAmenities />
+      <OurPlans />
+      <ArticlesNews />
     </div>
   );
 };

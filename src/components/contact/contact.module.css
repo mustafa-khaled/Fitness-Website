@@ -1,16 +1,16 @@
-.first {
+.hero-section {
   background-image: url(../../assets/contact1.png);
 }
 
 @media (max-width: 600px) {
-  .first h1 {
+  .hero-section h1 {
     font-size: 30px;
   }
 }
 
 /* second Section  */
 
-.second {
+.contact-form {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -18,32 +18,34 @@
   color: var(--three);
 }
 
-.second > div {
+.contact-form > div {
   width: 50%;
 }
 
-.second div:first-of-type p:not(.second div:first-of-type p:first-of-type) {
+.contact-form
+  div:first-of-type
+  p:not(.contact-form div:first-of-type p:first-of-type) {
   color: var(--four);
   margin: 20px 0;
 }
 
-.second div:first-of-type p span {
+.contact-form div:first-of-type p span {
   color: var(--three);
   font-weight: 500;
 }
 
-.second div:last-of-type {
+.contact-form div:last-of-type {
   background-color: var(--six);
   padding: 30px;
 }
 
-.second div:last-of-type p {
+.contact-form div:last-of-type p {
   color: var(--two);
   margin-top: 10px;
 }
 
-.second div:last-of-type form input,
-.second div:last-of-type form textarea {
+.contact-form div:last-of-type form input,
+.contact-form div:last-of-type form textarea {
   display: block;
   border: 1px solid var(--seven);
   outline: none;
@@ -52,42 +54,42 @@
   width: 100%;
 }
 
-.second div:last-of-type form input::placeholder,
-.second div:last-of-type form textarea::placeholder {
+.contact-form div:last-of-type form input::placeholder,
+.contact-form div:last-of-type form textarea::placeholder {
   color: var(--seven);
 }
 
-.second div:last-of-type form textarea {
+.contact-form div:last-of-type form textarea {
   width: 100%;
   height: 100px;
   resize: none;
 }
 
-.second div:last-of-type button {
+.contact-form div:last-of-type button {
   background-color: var(--three);
   color: var(--white);
 }
-.second div:last-of-type button:hover {
+.contact-form div:last-of-type button:hover {
   color: var(--three);
 }
 
-.second div:last-of-type button::before {
+.contact-form div:last-of-type button::before {
   background-color: var(--one);
 }
 
 @media (max-width: 700px) {
-  .second {
+  .contact-form {
     flex-direction: column;
   }
 
-  .second > div {
+  .contact-form > div {
     width: 100%;
   }
 }
 
 /* SEction Three  */
 
-.third {
+.contact-info {
   position: relative;
   background-image: url(../../assets/contact2.png);
   background-repeat: no-repeat;
@@ -96,7 +98,7 @@
   min-height: 50vh;
 }
 
-.third::before {
+.contact-info::before {
   content: "";
   position: absolute;
   left: 0;
@@ -107,7 +109,7 @@
   opacity: 0.5;
 }
 
-.third_content {
+.contact-info-content {
   position: relative;
   background-color: var(--one);
   color: var(--three);
@@ -118,49 +120,49 @@
   text-align: center;
 }
 
-.third_content > div {
+.contact-info-content > div {
   width: calc(100% / 3);
   padding: 0 20px;
 }
 
-.third_content > div i {
+.contact-info-content > div i {
   font-size: 20px;
 }
 
-.third_content > div h4 {
+.contact-info-content > div h4 {
   margin: 10px 0;
 }
 
-.third_content > div p {
+.contact-info-content > div p {
   margin: 10px 0;
   font-size: 13px;
 }
 
-.third_content > div:not(.third_content > div:first-of-type) {
+.contact-info-content > div:not(.contact-info-content > div:first-of-type) {
   border-left: 1px solid var(--three);
 }
 
 @media (max-width: 700px) {
-  .third_content {
+  .contact-info-content {
     flex-direction: column;
   }
 
-  .third_content > div {
+  .contact-info-content > div {
     width: 100%;
   }
 
-  .third_content > div:not(.third_content > div:first-of-type) {
+  .contact-info-content > div:not(.contact-info-content > div:first-of-type) {
     border: none;
   }
 }
 
-.four {
+.quick-info {
   width: 60%;
   margin: 0 auto;
   color: var(--three);
 }
 
-.four > div div {
+.quick-info > div div {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -169,11 +171,11 @@
   padding: 15px 5px;
 }
 
-.four > div div i {
+.quick-info > div div i {
   cursor: pointer;
 }
 
-.four > div div i.activeIcon {
+.quick-info > div div i.activeIcon {
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -181,8 +183,8 @@
   -o-transform: rotate(180deg);
 }
 
-.four > div div i,
-.four > div p {
+.quick-info > div div i,
+.quick-info > div p {
   transition: var(--main-transition);
   -webkit-transition: var(--main-transition);
   -moz-transition: var(--main-transition);
@@ -190,20 +192,20 @@
   -o-transition: var(--main-transition);
 }
 
-.four > div p {
+.quick-info > div p {
   color: var(--four);
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   padding: 5px 0;
   display: none;
 }
 
-.four > div p.active {
+.quick-info > div p.active {
   display: block;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 @media (max-width: 500px) {
-  .four {
+  .quick-info {
     width: 80%;
   }
 }

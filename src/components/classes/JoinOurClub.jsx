@@ -1,11 +1,11 @@
 import { useNavigate } from "react-router";
 import styles from "./classes.module.css";
 
-const Third = () => {
+const JoinOurClub = () => {
   const navigate = useNavigate();
 
   return (
-    <div className={styles.third} data-aos="zoom-in">
+    <div className={styles["join-our-club"]} data-aos="zoom-in">
       <div>
         <h2>Join Our Club</h2>
         <p>
@@ -19,4 +19,4 @@ const Third = () => {
   );
 };
 
-export default Third;
+export default JoinOurClub;

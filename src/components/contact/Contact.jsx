@@ -1,15 +1,15 @@
-import First from "./First";
-import Second from "./Second";
-import Third from "./Third";
-import Four from "./Four";
+import HeroSection from "./HeroSection";
+import ContactForm from "./ContactForm";
+import ContactInfo from "./ContactInfo";
+import QuickInfo from "./QuickInfo";
 
 const Contact = () => {
   return (
     <div>
-      <First />
-      <Second />
-      <Third />
-      <Four />
+      <HeroSection />
+      <ContactForm />
+      <ContactInfo />
+      <QuickInfo />
     </div>
   );
 };

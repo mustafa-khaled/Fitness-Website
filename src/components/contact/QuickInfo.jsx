@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./contact.module.css";
 
-const Four = () => {
+const QuickInfo = () => {
   const [active, setActive] = useState(Array(4).fill(false));
   const [activeIndex, setActiveIndex] = useState(-1);
 
@@ -16,7 +16,7 @@ const Four = () => {
   };
 
   return (
-    <div className={`${styles.four} sections-padding`}>
+    <div className={`${styles["quick-info"]} sections-padding`}>
       <div>
         <div>
           <h4>What is the Fitnessfit schedule?</h4>
@@ -83,4 +83,4 @@ const Four = () => {
   );
 };
 
-export default Four;
+export default QuickInfo;

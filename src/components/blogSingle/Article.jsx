@@ -1,8 +1,8 @@
-import styles from "./blogSimgle.module.css";
+import styles from "./blogSingle.module.css";
 
-const Second = () => {
+const Article = () => {
   return (
-    <div className={styles.second}>
+    <div className={styles.article}>
       <p>
         Dynamically target high pay of intellectual capital customized
         technologies objectively integrateemerging core competencies before
@@ -61,4 +61,4 @@ const Second = () => {
   );
 };
 
-export default Second;
+export default Article;
